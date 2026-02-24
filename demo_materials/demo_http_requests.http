@@ -1,0 +1,30 @@
+# Send a get request to OsloMets home page
+GET / HTTP/1.1
+Host: www.oslomet.no
+
+# The ditio beta website
+GET / HTTP/1.1
+Host: beta.ditio.org
+
+GET /assets/index-D_8Bc5vn.js HTTP/1.1
+Host: beta.ditio.org
+
+# Send a POST request to OsloMet (example form submission)
+POST / HTTP/1.1
+Host: www.oslomet.no
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 22
+
+name=Ola&message=Hello
+
+# Send a request to our own server
+GET /stuff HTTP/1.1
+Host: localhost:8080
+
+# Send a POST request to our own server
+POST /stuff HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 42
+
+{"name":"John","email":"john@example.com"}
