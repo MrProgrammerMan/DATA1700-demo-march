@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" type="module"></script>
+    <script type="module">
+        let btn = document.getElementById("btn")
+        btn.addEventListener("click", async () => {
+            let response = await fetch("http://localhost:8080/stuff")
+
+            let json_data = await response.json()
+
+            console.log(json_data)
+
+            let out = document.getElementById("out")
+            out.innerText = json_data.quote
+        })
+    </script>
 </head>
 <body>
     <button id="btn">Click me!</button>
