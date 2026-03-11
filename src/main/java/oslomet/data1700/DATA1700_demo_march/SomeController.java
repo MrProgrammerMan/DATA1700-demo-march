@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 @RestController
 public class SomeController {
-    @GetMapping("/stuff")
+    @GetMapping("/quote")
     public Map<String, String> someEndpoint() {
         return Map.of("Quote", "Some wise words");
     }
