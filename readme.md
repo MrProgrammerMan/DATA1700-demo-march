@@ -36,6 +36,7 @@ Here is an example of a response object:
 
 Dictionary:
 | Abbreviation | Term |
+| --- | --- |
 | HTTP | Hyper-Text-Transfer-Protocol |
 | AJAX | Asynchronous Javascript And Xml |
 | UX | User eXperience |
