@@ -1,6 +1,6 @@
 let btn = document.getElementById("btn")
 btn.addEventListener("click", async () => {
-    let response = await fetch("http://localhost:8080/stuff")
+    let response = await fetch("http://localhost:8080/quote")
 
     let json_data = await response.json()
 
