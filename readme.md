@@ -3,6 +3,10 @@ This repo contains a template and materials for a demo in simple fullstack devel
 
 The demo focuses on understanding of the underlying HTTP-requests that are built, sent and received by Spring Boot and JavaScript.
 
+## License
+The source code in this repository is licensed under the [MIT License](LICENSE).
+The slide materials in `demo_materials` are licensed under [CC BY 4.0](demo_materials/LICENSE).
+
 The demo materials can be found in `demo_materials`.
 
 You can switch to a branch that starts where the demo leaves off like so: `git checkout solution`.
